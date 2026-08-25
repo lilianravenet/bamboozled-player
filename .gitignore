@@ -1,2 +1,8 @@
 .obsidian/
 
+bin/debug/*
+bin/release/*
+
+*.swp
+*.o
+*.s
