@@ -41,6 +41,18 @@ sudo zypper refresh && sudo zypper update
 sudo zypper install gcc make ncurses-devel
 ```
 
+FreeBSD:
+```
+pkg update && pkg upgrade
+pkg install lang/gcc gmake devel/ncurses
+```
+
+OpenBSD:
+```
+pkg_add -u
+pkg_add gcc gmake ncurses
+```
+
 ## Usage
 
 ```
