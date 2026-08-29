@@ -6,39 +6,41 @@ Bamboozled Player is a C++ Ncurses TUI media player specifically intended for `.
 
 ## Dependencies
 
+> **NOTE**: Depending on your operating system and distribution, you may need root access to update your package manager and install the needed dependencies
+
 On Debian/Ubuntu-based distributions:
 
 ```
-sudo apt update && sudo apt upgrade
-sudo apt install gcc make libncurses5-dev
+apt update && sudo apt upgrade
+apt install gcc make libncurses5-dev
 ```
 
 Fedora-based distributions:
 
 ```
-sudo dnf update && sudo dnf upgrade
-sudo dnf install gcc make ncurses-devel
+dnf update && sudo dnf upgrade
+dnf install gcc make ncurses-devel
 ```
 
 Arch-based distributions:
 
 ```
-sudo pacman -Syu
-sudo pacman -S gcc make ncurses
+pacman -Syu
+pacman -S gcc make ncurses
 ```
 
 CentOS/RHEL-based distributions:
 
 ```
-sudo yum update
-sudo yum install gcc make ncurses-devel
+yum update
+yum install gcc make ncurses-devel
 ```
 
 openSUSE-based distributions:
 
 ```
-sudo zypper refresh && sudo zypper update
-sudo zypper install gcc make ncurses-devel
+zypper refresh && sudo zypper update
+zypper install gcc make ncurses-devel
 ```
 
 FreeBSD:
