@@ -57,11 +57,20 @@ pkg_add gcc gmake ncurses
 
 ## Usage
 
+Build from source:
 ```
 git clone https://github.com/lilianravenet/bamboozled-player.git
 cd bamboozled-player
 make release
+```
+
+Run:
+```
 make run
+```
+*or*
+```
+./bin/release/bbzl
 ```
 
 ## To-do list
